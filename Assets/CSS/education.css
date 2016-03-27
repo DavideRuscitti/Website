@@ -1,0 +1,237 @@
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("white.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: rgba(232, 232, 232, 0.78);
+    background-size: 960px 1300px;
+    background-position: center 9px;
+}
+
+/* NAVIGATION BAR CSS */
+
+
+#Nav {
+
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    background-color: #ebebeb;
+    color: #bebebe;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    max-width: 950px;
+    height: 35px;
+
+}
+
+
+
+A {
+    FONT-SIZE: 20PT ;
+    FONT-FAMILY: "ROBOTO";
+    color: #9e9e9e;
+    text-decoration: none;
+    margin: 0 20px;
+
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* IMAGE SIZING AND POSITIONING CSS */
+
+#banner
+{
+    width: 951px;
+    height: 380px;
+    position: absolute;
+    padding-left: 2px;
+
+
+}
+
+#bar
+{
+    width: 950px;
+    height: 10px;
+    padding-left: 2px;
+}
+
+#stadt
+{
+    width: 950px;
+    height: 300px;
+}
+
+#edu
+{
+    width: 290px;
+    height: 220px;
+    padding-top: 50px;
+    padding-left: 15px;
+    margin-top: 25px;
+
+}
+
+#college {
+    width: 300px;
+    height: 130px;
+    float: right;
+    padding-bottom: 150px;
+    padding-right: 20px;
+}
+
+
+#lmrl
+{
+    width: 260px;
+    height: 210px;
+    float: right;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#rgu {
+    width: 600px;
+    height: 160px;
+    float: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+
+/* TEXT STYLING*/
+
+h1 {
+    font-family: 'ROBOTO' , sans-serif;
+    font-weight: 300;
+    color: #7c7c7c;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'ROBOTO' , sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: 'ROBOTO' , sans-serif;
+    font-weight: 300;
+
+}
+
+p {
+    font-family: 'ROBOTO' , sans-serif;
+}
+
+/* POSITIONING*/
+
+
+#school {
+    padding-bottom: 20px;
+}
+
+.topleft {
+    position: relative;
+    bottom: 260px;
+    left: 290px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #ffffff;
+
+}
+
+.topright {
+    position: relative;
+    bottom: 260px;
+    left: 736px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.topright1 {
+    position: relative;
+    bottom: 260px;
+    left: 806px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.topright3 {
+    position: relative;
+    bottom: 350px;
+    left: 736px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.w3-btn
+{
+    width:80px;
+}
+
+
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 400px;
+
+}
+
+div.absolute {
+    position: absolute;
+    top: 0px;
+    right: 190px;
+    width: 200px;
+    height: 100px;
+
+}
+
+/* HOME BUTTON */
+
+#home {
+    FONT-SIZE: 10PT ;
+    FONT-FAMILY: "ROBOTO";
+    color: #9e9e9e;
+    text-decoration: none;
+    margin: 0 20px;
+
+}
+
+#search {
+    FONT-SIZE: 10PT ;
+    FONT-FAMILY: "ROBOTO";
+    color: #9e9e9e;
+    text-decoration: none;
+    margin: 0 8px;
+    margin-left: -20px;
+    height: 30px;
+
+
+}
+
+#mySearch {
+    FONT-SIZE: 10PT ;
+    FONT-FAMILY: "ROBOTO";
+    color: #060606;
+    text-decoration: none;
+    margin: 0 8px;
+    margin-left: 0px;
+    height: 30px;
+    background-color: #f6f6f6;
+
+
+}
