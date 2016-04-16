@@ -8,6 +8,7 @@ body{
     background-color: rgba(232, 232, 232, 0.78);
     background-size: 960px 2000px;
     background-position: center 9px;
+
 }
 
 /* NAVIGATION BAR CSS */
@@ -39,6 +40,7 @@ A {
     color: #9e9e9e;
     text-decoration: none;
     margin: 0 20px;
+
 
 }
 
@@ -113,12 +115,14 @@ h1 {
     color: #7c7c7c;
     text-align: center;
     font-size: 40pt;
+
 }
 
 h2 {
     font-family: 'ROBOTO' , sans-serif;
     font-weight: 300;
     text-decoration: underline;
+
 }
 
 h3 {
@@ -129,6 +133,7 @@ h3 {
 
 p {
     font-family: 'ROBOTO' , sans-serif;
+    font-weight: 300;
 }
 
 /* POSITIONING*/
@@ -142,6 +147,14 @@ p {
     left: 25px;
     margin-bottom: 15px;
     padding-top: 30px;
+}
+
+#location {
+    position: relative;
+    right: 290px;
+    top: 550px;
+    margin-bottom: 0px;
+    padding-top: 0px;
 }
 
 
@@ -228,6 +241,7 @@ div.absolute {
     position: relative;
     left: -297px;
     top: 600px;
+
 }
 
 
@@ -249,7 +263,7 @@ div.absolute {
     text-decoration: none;
     margin: 0 8px;
     margin-left: -20px;
-    height: 30px;
+    height: 35px;
 
 
 }
@@ -261,7 +275,7 @@ div.absolute {
     text-decoration: none;
     margin: 0 8px;
     margin-left: 0px;
-    height: 30px;
+    height: 29px;
     background-color: #f6f6f6;
 
 
